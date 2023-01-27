@@ -1,0 +1,9 @@
+// Vitest Snapshot v1
+
+exports[`IndexPage > renders unchanged 1`] = `
+<DocumentFragment>
+  <h1>
+    Hello world
+  </h1>
+</DocumentFragment>
+`;

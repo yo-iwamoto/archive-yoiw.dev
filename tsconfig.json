@@ -21,7 +21,6 @@
     },
     "module": "esnext",
     "resolveJsonModule": true,
-    "types": ["vitest/globals"],
     "plugins": [{ "name": "next" }]
   },
   "include": ["src", "next-env.d.ts", ".next/types/**/*.ts"],
