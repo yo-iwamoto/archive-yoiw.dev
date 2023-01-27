@@ -6,7 +6,7 @@ import type { Blog } from '@/types/Api';
 
 const LIMIT = 5;
 const ORDER = '_created_at';
-const REVALIDATE = 5;
+const REVALIDATE = 60 * 60 * 24;
 
 const getPosts = async () =>
   fetch(`${NEWT_CDN_API_BASE_URL}/${NEWT_BLOG_APP_UID}/${NEWT_POST_MODEL_UID}?limit=${LIMIT}&order=${ORDER}`, {
