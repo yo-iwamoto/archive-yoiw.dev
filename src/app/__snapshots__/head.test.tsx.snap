@@ -5,5 +5,9 @@ exports[`Head > renders unchanged 1`] = `
   <title>
     yoiw.dev
   </title>
+  <meta
+    content="width=device-width,initial-scale=1"
+    name="viewport"
+  />
 </DocumentFragment>
 `;
