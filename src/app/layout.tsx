@@ -1,9 +1,7 @@
-import type { ReactNode } from 'react';
+import type { PropsWithChildren } from 'react';
 import '@/styles/global.css';
 
-type Props = {
-  children: ReactNode;
-};
+type Props = PropsWithChildren;
 
 export default function Layout({ children }: Props) {
   return (

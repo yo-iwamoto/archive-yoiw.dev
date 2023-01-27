@@ -24,6 +24,7 @@ module.exports = {
       { groups: ['index', 'sibling', 'parent', 'internal', 'external', 'builtin', 'object', 'type'] },
     ],
     '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }], // ignore var start with _
+    '@next/next/link-passhref': 'off', // for Next.js 13
   },
   parser: '@typescript-eslint/parser',
   parserOptions: {

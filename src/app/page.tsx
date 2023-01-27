@@ -1,3 +1,3 @@
-export default function Page() {
-  return <h1>Hello world</h1>;
-}
+import { TopPage } from '@/templates/TopPage';
+
+export default TopPage;

@@ -1,0 +1,9 @@
+// Vitest Snapshot v1
+
+exports[`Head > renders unchanged 1`] = `
+<DocumentFragment>
+  <title>
+    yoiw.dev
+  </title>
+</DocumentFragment>
+`;
