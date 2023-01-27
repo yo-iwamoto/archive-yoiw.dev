@@ -1,0 +1,57 @@
+{
+  "parser": {
+    ".tsx$": "@markuplint/jsx-parser"
+  },
+  "specs": {
+    ".tsx$": "@markuplint/react-spec"
+  },
+  "rules": {
+    "attr-duplication": {
+      "severity": "warning"
+    },
+    "case-sensitive-attr-name": false,
+    "case-sensitive-tag-name": false,
+    "class-naming": false,
+    "deprecated-attr": {
+      "severity": "warning"
+    },
+    "deprecated-element": {
+      "severity": "warning"
+    },
+    "disallowed-element": {
+      "severity": "warning"
+    },
+    "doctype": false,
+    "id-duplication": {
+      "severity": "warning"
+    },
+    "ineffective-attr": {
+      "severity": "warning"
+    },
+    "invalid-attr": false,
+    "label-has-control": {
+      "severity": "warning"
+    },
+    "landmark-roles": {
+      "severity": "warning"
+    },
+    "no-refer-to-non-existent-id": false,
+    "permitted-contents": {
+      "severity": "warning"
+    },
+    "require-accessible-name": {
+      "severity": "warning"
+    },
+    "required-attr": {
+      "severity": "warning"
+    },
+    "required-element": {
+      "severity": "warning"
+    },
+    "required-h1": false,
+    "use-list": false,
+    "wai-aria": {
+      "severity": "warning"
+    }
+  }
+}

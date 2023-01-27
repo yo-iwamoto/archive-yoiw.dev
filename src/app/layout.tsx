@@ -7,7 +7,7 @@ type Props = PropsWithChildren;
 export default function Layout({ children }: Props) {
   return (
     <html lang='ja'>
-      <body className='font-mono text-gray-800'>
+      <body className='font-mono text-gray-700'>
         <Header />
         <main className='min-h-screen px-4 pt-8'>
           <div className='mx-auto max-w-7xl'>{children}</div>

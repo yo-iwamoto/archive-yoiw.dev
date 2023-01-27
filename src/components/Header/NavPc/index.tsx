@@ -9,7 +9,10 @@ export const NavPC = () => {
           <li key={label} className='flex flex-col items-center'>
             <Link href={href} className='group block p-1 text-xl text-white transition duration-75'>
               <span>{label}</span>
-              <span className='block h-0.5 max-w-0 bg-white transition-all duration-500 group-hover:max-w-full'></span>
+              <span
+                aria-hidden='true'
+                className='block h-0.5 max-w-0 bg-white transition-all duration-500 group-hover:max-w-full'
+              />
             </Link>
           </li>
         ))}

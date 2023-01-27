@@ -1,0 +1,27 @@
+// Vitest Snapshot v1
+
+exports[`templates/TopPage > 正しく表示されること 1`] = `
+<DocumentFragment>
+  <section
+    aria-labelledby="blog-heading"
+  >
+    <h2
+      id="blog-heading"
+    >
+      <span
+        class="sr-only"
+      >
+        ブログ
+      </span>
+      <span
+        aria-hidden="true"
+      >
+        Blogs
+      </span>
+    </h2>
+    <div>
+      mock Blogs
+    </div>
+  </section>
+</DocumentFragment>
+`;
