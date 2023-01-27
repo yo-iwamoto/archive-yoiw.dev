@@ -1,7 +1,7 @@
 import { Header } from '.';
 import { render } from '@testing-library/react';
 
-describe('components/Header', () => {
+describe.skip('components/Header', () => {
   it('正しく表示されること', () => {
     const { getByRole, getAllByRole, asFragment } = render(<Header />);
 

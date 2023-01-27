@@ -9,7 +9,9 @@ export default function Layout({ children }: Props) {
     <html lang='ja'>
       <body className='font-mono text-gray-800'>
         <Header />
-        <main className='mx-auto min-h-screen max-w-7xl pt-8'>{children}</main>
+        <main className='min-h-screen px-4 pt-8'>
+          <div className='mx-auto max-w-7xl'>{children}</div>
+        </main>
       </body>
     </html>
   );
