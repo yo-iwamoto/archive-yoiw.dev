@@ -21,7 +21,6 @@ specifiers:
   newt-client-js: ^3.2.4
   next: ^13.1.1
   npm-run-all: ^4.1.5
-  pathpida: ^0.20.1
   postcss: ^8.4.8
   prettier: ^2.5.1
   prettier-plugin-tailwindcss: ^0.1.8
@@ -58,7 +57,6 @@ devDependencies:
   lint-staged: 12.4.1
   newt-client-js: 3.2.4
   npm-run-all: 4.1.5
-  pathpida: 0.20.1
   postcss: 8.4.18
   prettier: 2.5.1
   prettier-plugin-tailwindcss: 0.1.8_prettier@2.5.1
@@ -3241,15 +3239,6 @@ packages:
 
   /pathe/1.1.0:
     resolution: {integrity: sha512-ODbEPR0KKHqECXW1GoxdDb+AZvULmXjVPy4rt+pGo2+TnjJTIPJQSVS6N63n8T2Ip+syHhbn52OewKicV0373w==}
-    dev: true
-
-  /pathpida/0.20.1:
-    resolution: {integrity: sha512-kHP27AIgeS3AqPTug9FLwQ/VpPkwjMv+TgMgpePeLKj/gMyY6h8/gRtAsWjTwzDV92LtHnbMSy3V12jQ/xVBeg==}
-    hasBin: true
-    dependencies:
-      chokidar: 3.5.3
-      ignore: 5.2.0
-      minimist: 1.2.7
     dev: true
 
   /pathval/1.1.1:
