@@ -3,13 +3,14 @@
   "license": "MIT",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
+    "postinstall": "git config --local core.hooksPath .githooks",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint --fix src/**/*.{ts,tsx}",
     "format": "prettier --write src",
     "test": "vitest run",
-    "postinstall": "git config --local core.hooksPath .githooks"
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "classnames": "^2.3.2",
