@@ -13,7 +13,7 @@ type Model<T> = T & {
   };
 };
 
-export type Blog = Model<{
+export type BlogPost = Model<{
   slug: string;
   title: string;
   content: string;
